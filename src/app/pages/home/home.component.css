@@ -1,0 +1,56 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Sans&family=Lobster&family=Montserrat:wght@200;400&family=Poppins&family=Roboto+Mono:wght@500&display=swap'); */
+#top{
+    width: 300px;
+    padding: 10px 0;
+    border: 5px solid gray;
+    margin: 50px 50% 0 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(76, 141, 179);
+    
+  }
+/* p{
+    margin-top: 5px;
+    text-align: center;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  #parent {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  #left {
+    padding: 60px;
+    border: 1px solid lightgray;
+    background-color: rgb(195, 228, 248);
+    width: 50%;
+    height: 50%;
+    /* font-family: 'Roboto Mono', monospace; */
+  }
+  
+  #right {
+    border: 1px solid lightgray;
+    background-color: rgb(195, 228, 248);
+    width: 30%;
+    
+  }
+  #right a{
+    padding: 50px;
+    text-decoration: none;
+    color: black;
+
+  }
+  button{
+    padding: 4px;
+    padding-left: 40px;
+    /* padding-bottom: 30px; */
+    border: none;
+    background: none;
+  }

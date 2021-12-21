@@ -8,6 +8,7 @@ import { QuizComponent } from './pages/quiz/quiz.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent},
+  {path: 'home', component:HomeComponent },
   { path: 'programming', component: ProgrammingComponent },
   { path: 'cssubjects', component: CssubjectsComponent },
   { path: 'ide', component: IdeComponent },
