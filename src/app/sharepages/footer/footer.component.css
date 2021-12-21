@@ -1,0 +1,107 @@
+.footer {
+  background-color: #034f7a;
+  color: #fff;
+  display: grid;
+  grid-template-columns: auto 500px 400px;
+  position: static;
+  height: 300px;
+  margin-top: 75px;
+  padding-top: 50px;
+}
+
+.col-1 {
+  margin-left: 110px;
+}
+
+.navbar-brand {
+  color: #fff;
+}
+
+.brand-name {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.logo {
+  width: 2.1em;
+  height: 1.1em;
+  padding-right: 5px;
+}
+
+.mail {
+  width: 1em;
+  padding-right: 5px;
+  margin-left: 5px;
+}
+
+/* ---------------------------Socials------------------- */
+.social-menu ul {
+  position: relative;
+  top: 30px;
+  left: 55px;
+  transform: translate(-50%, -50%);
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.social-menu ul li {
+  list-style: none;
+  margin: 0 4px;
+}
+.social-menu ul li .fa {
+  color: #034f7a;
+  font-size: 21px;
+  line-height: 39px;
+  transition: 0.5s;
+}
+.social-menu ul li .fa:hover {
+  color: #ffffff;
+}
+.social-menu ul li a {
+  position: relative;
+  display: block;
+  width: 30px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: white;
+  text-align: center;
+  transition: 0.5s;
+  transform: translate(0, 0px);
+  box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+}
+.social-menu ul li a:hover {
+  transform: rotate(0deg) skew(0deg) translate(0, -10px);
+}
+.social-menu ul li:nth-child(1) a:hover {
+  background-color: #3b5999;
+}
+.social-menu ul li:nth-child(2) a:hover {
+  background-color: #55acee;
+}
+.social-menu ul li:nth-child(3) a:hover {
+  background-color: #e4405f;
+}
+.social-menu ul li:nth-child(4) a:hover {
+  background-color: #cd201f;
+}
+.social-menu ul li:nth-child(5) a:hover {
+  background-color: #0077b5;
+}
+
+.fot-header {
+  font-weight: bold;
+}
+
+.fot-link {
+  text-decoration: none;
+  color: rgb(199, 201, 209);
+}
+
+.copyright {
+  text-align: center;
+  background-color: #013049;
+  color: #fff;
+  height: 50px;
+  padding-top: 9px;
+}
