@@ -8,7 +8,7 @@
             
             <div class="quiz-header">
                 <h4 style="font-family: cursive;">Java Quiz!</h4>
-                <span style="font-style: italic;">Welcome <b>{{name}}</b></span>
+                <span style="font-style: italic;" *ngIf="!isQuizCompleted">Welcome <b>{{name}}</b></span>
             </div>
         </div>
         <ng-container *ngIf="!isQuizCompleted">
