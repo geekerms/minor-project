@@ -7,6 +7,10 @@ import { ProgrammingComponent } from './pages/programming/programming.component'
 import { QuizComponent } from './pages/quiz/quiz.component';
 import {JavaWelcomeComponent} from './forquiz/java-welcome/java-welcome.component';
 import {JavaQuestionComponent} from './forquiz/java-question/java-question.component';
+import {WhatJComponent} from './javaTheory/what-j/what-j.component';
+import{FeaturesJComponent} from './javaTheory/features-j/features-j.component';
+import {JavaHomeComponent} from './javaTheory/java-home/java-home.component';
+
 
 const routes: Routes = [
   { path: '', component: HomeComponent},
@@ -17,6 +21,9 @@ const routes: Routes = [
   { path: 'quiz', component: QuizComponent },
   {path:'java-welcome', component:JavaWelcomeComponent},
   { path:'java-question',component:JavaQuestionComponent},
+  { path:'whatJ',component:WhatJComponent},
+  { path:'featuresJ',component:FeaturesJComponent},
+  { path:'javaHome',component:JavaHomeComponent},
 ];
 
 @NgModule({

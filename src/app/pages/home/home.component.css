@@ -29,7 +29,7 @@
   #left {
     padding: 60px;
     border: 1px solid lightgray;
-    background-color: rgb(195, 228, 248);
+    background-color: #e9f7ff;
     width: 50%;
     height: 50%;
     /* font-family: 'Roboto Mono', monospace; */
@@ -37,7 +37,7 @@
   
   #right {
     border: 1px solid lightgray;
-    background-color: rgb(195, 228, 248);
+    background-color: #e9f7ff;
     width: 30%;
     
   }
