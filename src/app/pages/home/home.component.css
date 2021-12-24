@@ -1,19 +1,16 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Sans&family=Lobster&family=Montserrat:wght@200;400&family=Poppins&family=Roboto+Mono:wght@500&display=swap'); */
+
 #top{
     width: 300px;
     padding: 10px 0;
-    border: 5px solid gray;
+    border: 2px solid #000;
     margin: 50px 50% 0 50%;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    background-color: rgb(76, 141, 179);
+
+    background-color: #81ccec;
     
   }
-/* p{
-    margin-top: 5px;
-    text-align: center;
-} */
 
 *{
     margin: 0;
@@ -54,3 +51,4 @@
     border: none;
     background: none;
   }
+
