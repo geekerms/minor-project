@@ -2,7 +2,8 @@
   background-color: #034f7a;
   color: #fff;
   display: grid;
-  grid-template-columns: auto 500px 400px;
+  grid-template-columns: 500px 450px 450px 300px;
+  
   position: static;
   height: 300px;
   margin-top: 75px;
