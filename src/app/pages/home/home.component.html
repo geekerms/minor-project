@@ -1,1 +1,88 @@
-<p>home works!</p>
+<div class="hero-area">
+  <div id="top">
+    <h2>{{ title }}</h2>
+  </div>
+  <h5>
+    <p style="text-align: center; margin-top: 10px; margin-bottom: 10px">
+      A Programming portal for learning and To Find the Best Online Programming
+      Tutorials
+    </p>
+  </h5>
+
+  <div id="parent">
+    <div id="left">
+      <h4 class="info">
+        &nbsp;&nbsp;&nbsp;&nbsp; <strong>{{ title }}</strong> is an online
+        platform for programmers where you can learn programming and can prepare
+        for placements. Here you can Practice Computer Science MCQ, Coding
+        Quistions etc. Also you can Find Best Online Programming learning
+        Resources Available on Internet.
+      </h4>
+    </div>
+    <div id="right">
+      <h4><strong>Quick Links</strong></h4>
+      <br />
+
+      <button routerLink="/home"><h5>Java Tutorials ></h5></button><br />
+      <button routerLink="/home"><h5>Python ></h5></button><br />
+      <button routerLink="/ide"><h5>IDE ></h5></button><br />
+      <button routerLink="/home"><h5>SQL ></h5></button><br />
+      <button routerLink="/quiz" style="padding-bottom: 5%">
+        <h5>Quiz ></h5>
+      </button>
+    </div>
+  </div>
+
+  <!-- ---------------popular courses------------------ -->
+  <div class="popular-container">
+    <div class="right-box">
+      <div class="heading">
+        <h3>Popular Courses</h3>
+      </div>
+
+      <div class="row">
+        <div class="column">
+          <div class="img-container">
+            <a href="#"><img src="../assets/images/java.png" alt="" /></a>
+          </div>
+          <div class="quiz-name">
+            <a href="#"
+              ><h4 style="text-align: center; margin-top: -26px; color: #fff">
+                Java
+              </h4></a
+            >
+          </div>
+        </div>
+        <div class="column">
+          <div class="img-container">
+            <a href="#"><img src="../assets/images/sql.png" alt="" /></a>
+          </div>
+          <div class="quiz-name">
+            <a href="#"
+              ><h4 style="text-align: center; margin-top: -26px; color: #fff">
+                SQL
+              </h4></a
+            >
+          </div>
+        </div>
+        <div class="column">
+          <div class="img-container">
+            <a href="#"><img src="../assets/images/ds.png" alt="" /></a>
+          </div>
+          <div class="quiz-name">
+            <a routerLink="/whatJ"
+              ><h4 style="text-align: center; margin-top: -26px; color: #fff">
+                Data Structure
+              </h4></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="btn-all-course">
+      <a href="#" style="text-decoration: none; color: #fff"
+        >View all courses
+      </a>
+    </div>
+  </div>
+</div>
