@@ -1,0 +1,38 @@
+<div class="contain" style="display: flex;">
+    <app-dbms-home></app-dbms-home>
+    
+    <div class="parent">
+        <div class="right">
+            <h1><b>Database Schema</b></h1>
+        <br>
+        <h5>
+            A database schema is the skeleton structure that represents the logical view of the entire database. It defines how the data is organized and how the relations among them are associated. It formulates all the constraints that are to be applied on the data.<br>
+
+            A database schema defines its entities and the relationship among them. It contains a descriptive detail of the database, which can be depicted by means of schema diagrams. It’s the database designers who design the schema to help programmers understand the database and make it useful.        
+        </h5><br>
+        <img src="../assets/images/schema.png" style="width: 500px; height: 400px;" > <br><br>
+
+        <h5>
+            A database schema can be divided broadly into two categories −<br><br>
+
+            <b>Physical Database Schema −</b> This schema pertains to the actual storage of data and its form of storage like files, indices, etc. It defines how the data will be stored in a secondary storage.<br>
+            
+           <b> Logical Database Schema − </b>This schema defines all the logical constraints that need to be applied on the data stored. It defines tables, views, and integrity constraints.<br><br>
+            
+            <b>Database Instance : </b><br>
+            It is important that we distinguish these two terms individually. Database schema is the skeleton of database. It is designed when the database doesn't exist at all. Once the database is operational, it is very difficult to make any changes to it. A database schema does not contain any data or information.
+            
+            A database instance is a state of operational database with data at any given time. It contains a snapshot of the database. Database instances tend to change with time. A DBMS ensures that its every instance (state) is in a valid state, by diligently following all the validations, constraints, and conditions that the database designers have imposed.
+        </h5>
+            
+        </div>
+    </div>
+    </div>
+    <div>
+        <button type="button" class="btn btn-primary pull-right" style="margin-right: 310px;margin-top: 10px;" routerLink="/indeD">Next</button>
+        <button type="button" class="btn btn-primary pull-left" style="margin-left: 510px;margin-top: 10px;" routerLink= "/relationalD">Previous</button>
+
+    </div>
+
+    
+

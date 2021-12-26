@@ -1,0 +1,22 @@
+/* *{
+    
+    margin-left: 20px;
+} */
+.parent {
+    margin-left: 10px;
+    margin-right: 200px;
+    padding-top: 70px;
+    display: flex;
+    /* justify-content: space-around; */
+  }
+  
+
+  
+  .right {
+    padding: 10px;
+    border: 1px solid lightgray;
+    background-color: #e9f7ff;
+    width: 700px;
+  }
+
+ 
