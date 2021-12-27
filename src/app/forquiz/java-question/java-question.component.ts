@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit,ViewChild,ElementRef } from '@angular/core';
+import { Router } from '@angular/router';
 import { interval } from 'rxjs';
 import { QuestionService } from 'src/app/service/question.service';
 
@@ -19,7 +20,9 @@ export class JavaQuestionComponent implements OnInit {
   interval$: any;
   progress: string = "0";
   isQuizCompleted: boolean = false;
-  constructor(private questionService: QuestionService) { }
+  constructor(private questionService: QuestionService,private router:Router) { }
+
+ 
 
   ngOnInit(): void {
     this.name = localStorage.getItem("name")!;
@@ -34,20 +37,34 @@ export class JavaQuestionComponent implements OnInit {
   }
   nextQuestion() {
     this.currentQuestion++;
+    this.resetCounter();
+    this.getProgressPercent();
+
   }
   previousQuestion() {
     this.currentQuestion--;
+    this.resetCounter();
+  }
+  @ViewChild('myButton') myButton!: ElementRef;
+  triggerClick(){
+    this.router.navigate(['/quiz']);
+  }
+  fun(){
+    setTimeout(() => {
+      this.triggerClick();
+    }, 5000);
   }
   answer(currentQno: number, option: any) {
 
-    if(currentQno===this.questionList.length){
+    if (currentQno === this.questionList.length) {
       setTimeout(() => {
-        this.isQuizCompleted=true;
+        this.isQuizCompleted = true;
         this.stopCounter();
+        this.fun();
       }, 1000);
-      
+
     }
-      if (option.correct) {
+    if (option.correct) {
       this.points += 10;
       this.correctAnswer++;
       setTimeout(() => {
@@ -57,15 +74,17 @@ export class JavaQuestionComponent implements OnInit {
       }, 1000);
 
     } else {
-      setTimeout(() => {
-        this.currentQuestion++;
-        this.inCorrectAnswer++;
-        this.resetCounter();
-        this.getProgressPercent();
-      }, 1000);
-      this.points -= 5;
-    }
-    
+      
+        setTimeout(() => {
+          this.currentQuestion++;
+          this.inCorrectAnswer++;
+          this.resetCounter();
+          this.getProgressPercent();
+        }, 1000);
+        this.points -= 5;
+        
+      }
+
   }
   startCounter() {
     this.interval$ = interval(1000)
