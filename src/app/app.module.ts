@@ -36,6 +36,8 @@ import { EntityDComponent } from './dbmsTheory/entity-d/entity-d.component';
 import { RelationalDComponent } from './dbmsTheory/relational-d/relational-d.component';
 import { SchemaDComponent } from './dbmsTheory/schema-d/schema-d.component';
 import { IndeDComponent } from './dbmsTheory/inde-d/inde-d.component';
+import { PythonWelcomeComponent } from './forquiz/python-welcome/python-welcome.component';
+import { PythonQuestionComponent } from './forquiz/python-question/python-question.component';
 
 @NgModule({
   declarations: [
@@ -71,7 +73,9 @@ import { IndeDComponent } from './dbmsTheory/inde-d/inde-d.component';
     EntityDComponent,
     RelationalDComponent,
     SchemaDComponent,
-    IndeDComponent
+    IndeDComponent,
+    PythonWelcomeComponent,
+    PythonQuestionComponent
   ],
   imports: [
     BrowserModule,
