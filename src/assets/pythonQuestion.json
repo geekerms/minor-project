@@ -1,0 +1,184 @@
+{
+    "questions": [{
+            "questionText": " Who developed Python Programming Language?",
+            "options": [{
+                    "text": "Wick van Rossum"
+                },
+                {
+                    "text": "Rasmus Lerdorf"
+                },
+                {
+                    "text": "Guido van Rossum",
+                    "correct": true
+                },
+                {
+                    "text": "Niene Stom"
+                }
+            ],
+            "explanation": " Python language is designed by a Dutch programmer Guido van Rossum in the Netherlands."
+        },
+        {
+            "questionText": " Which type of Programming does Python support?",
+            "options": [{
+                    "text": "object-oriented programming"
+                },
+                {
+                    "text": " structured programming"
+                },
+                {
+                    "text": "functional programming"
+                },
+                {
+                    "text": "all of the mentioned",
+                    "correct": true
+                    
+                }
+            ],
+            "explanation": "Python is an interpreted programming language, which supports object-oriented, structured, and functional programming."
+        },
+        {
+            "questionText": "Is Python case sensitive when dealing with identifiers?",
+            "options": [{
+                    "text": "no",
+                    "correct": true
+                },
+                {
+                    "text": "yes"
+                },
+                {
+                    "text": "machine dependent"
+                },
+                {
+                    "text": "none of the mentioned"
+                }
+            ],
+            "explanation": " Case is always significant."
+        },
+        {
+            "questionText": "Which of the following is the correct extension of the Python file?",
+            "options": [{
+                    "text": ".python"
+                },
+                {
+                    "text": ".pl"
+                },
+                {
+                    "text": ".py",
+                    "correct": true
+                },
+                {
+                    "text": ".p"
+                }
+            ],
+            "explanation": "‘.py’ is the correct extension of the Python file. Python programs can be written in any text editor. To save these programs we need to save in files with file extension ‘.py’."
+        },
+        {
+            "questionText": "Is Python code compiled or interpreted?",
+            "options": [{
+                    "text": "Python code is both compiled and interpreted"
+                },
+                {
+                    "text": " Python code is neither compiled nor interpreted",
+                    "correct": true
+                },
+                {
+                    "text": "Python code is only compiled"
+                },
+                {
+                    "text": " Python code is only interpreted"
+                }
+            ],
+            "explanation": "Many languages have been implemented using both compilers and interpreters, including C, Pascal, and Python."
+        },
+        {
+            "questionText": "All keywords in Python are in _________",
+            "options": [{
+                    "text": "Capitalized"
+                },
+                {
+                    "text": "lower case"
+                },
+                {
+                    "text": " UPPER CASE"
+                },
+                {
+                    "text": " None of the mentioned",
+                    "correct": true
+                }
+            ],
+            "explanation": "True, False and None are capitalized while the others are in lower case."
+        },
+        {
+            "questionText": "What will be the value of the following Python expression:        4 + 3 % 5 ",
+            "options": [{
+                    "text": "7",
+                    "correct": true
+                },
+                {
+                    "text": "2"
+                },
+                {
+                    "text": "4"
+                },
+                {
+                    "text": "1"
+                }
+            ],
+            "explanation": "The order of precedence is: %, +. Hence the expression above, on simplification results in 4 + 3 = 7. Hence the result is 7."
+        },
+        {
+            "questionText": "Which of the following is used to define a block of code in Python language?",
+            "options": [{
+                    "text": " Indentation",
+                    "correct": true
+                },
+                {
+                    "text": "Key"
+                },
+                {
+                    "text": "Brackets"
+                },
+                {
+                    "text": "All of the mentioned"
+                }
+            ],
+            "explanation": "In Python, to define a block of code we use indentation. Indentation refers to whitespaces at the beginning of the line."
+        },
+        {
+            "questionText": "Which keyword is used for function in Python language?",
+            "options": [{
+                    "text": "Function"
+                },
+                {
+                    "text": "Def",
+                    "correct": true
+                },
+                {
+                    "text": "Fun"
+                },
+                {
+                    "text": "Define"
+                }
+            ],
+            "explanation": "None."
+        },
+        {
+            "questionText": "Which of the following character is used to give single-line comments in Python?",
+            "options": [{
+                    "text": "//"
+                },
+                {
+                    "text": "#"
+                },
+                {
+                    "text": "!",
+                    "correct": true
+                },
+                {
+                    "text": "/*"
+                }
+            ],
+            "explanation": "To write single-line comments in Python use the Numero sign (#) at the beginning of the line. To write multi-line comments, close the text between triple quotes."
+        }
+    ]
+}

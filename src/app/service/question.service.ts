@@ -8,7 +8,10 @@ export class QuestionService {
 
   constructor(private http :HttpClient) { }
 
-  getQuestionJson(){
+  getQuestionJsonJ(){
     return this.http.get<any>("assets/javaQuestion.json");
+  }
+  getQuestionJsonP(){
+    return this.http.get<any>("assets/pythonQuestion.json");
   }
 }

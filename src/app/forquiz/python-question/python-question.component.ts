@@ -2,14 +2,14 @@ import { Component, OnInit,ViewChild,ElementRef } from '@angular/core';
 import { Router } from '@angular/router';
 import { interval } from 'rxjs';
 import { QuestionService } from 'src/app/service/question.service';
-
 @Component({
-  selector: 'app-java-question',
-  templateUrl: './java-question.component.html',
-  styleUrls: ['./java-question.component.css']
+  selector: 'app-python-question',
+  templateUrl: './python-question.component.html',
+  styleUrls: ['./python-question.component.css']
 })
-export class JavaQuestionComponent implements OnInit {
+export class PythonQuestionComponent implements OnInit {
 
+  
   public name: string = "";
   public questionList: any = [];
   public currentQuestion: number = 0;
@@ -30,7 +30,7 @@ export class JavaQuestionComponent implements OnInit {
     this.startCounter();
   }
   getAllQuestions() {
-    this.questionService.getQuestionJsonJ()
+    this.questionService.getQuestionJsonP()
       .subscribe(res => {
         this.questionList = res.questions;
       })
@@ -121,4 +121,5 @@ export class JavaQuestionComponent implements OnInit {
     this.progress = ((this.currentQuestion / this.questionList.length) * 100).toString();
     return this.progress;
   }
+
 }

@@ -29,6 +29,9 @@ import{EntityDComponent} from './dbmsTheory/entity-d/entity-d.component';
 import{RelationalDComponent} from './dbmsTheory/relational-d/relational-d.component';
 import{SchemaDComponent} from './dbmsTheory/schema-d/schema-d.component';
 import{IndeDComponent} from './dbmsTheory/inde-d/inde-d.component';
+import{PythonWelcomeComponent} from './forquiz/python-welcome/python-welcome.component';
+import{PythonQuestionComponent} from './forquiz/python-question/python-question.component';
+
 
 const routes: Routes = [
   { path: '', component: HomeComponent},
@@ -39,6 +42,8 @@ const routes: Routes = [
   { path: 'quiz', component: QuizComponent },
   {path:'java-welcome', component:JavaWelcomeComponent},
   { path:'java-question',component:JavaQuestionComponent},
+  { path:'python-welcome',component:PythonWelcomeComponent},
+  { path:'python-question',component:PythonQuestionComponent},
   { path:'whatJ',component:WhatJComponent},
   { path:'featuresJ',component:FeaturesJComponent},
   { path:'javaHome',component:JavaHomeComponent},
