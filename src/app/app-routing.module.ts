@@ -31,6 +31,26 @@ import{SchemaDComponent} from './dbmsTheory/schema-d/schema-d.component';
 import{IndeDComponent} from './dbmsTheory/inde-d/inde-d.component';
 import{PythonWelcomeComponent} from './forquiz/python-welcome/python-welcome.component';
 import{PythonQuestionComponent} from './forquiz/python-question/python-question.component';
+import{CHomeComponent} from './cTheory/c-home/c-home.component';
+import{WhatCComponent} from './cTheory/what-c/what-c.component';
+import{FeaturesCComponent}from './cTheory/features-c/features-c.component';
+import{HistoryCComponent} from './cTheory/history-c/history-c.component';
+import{FirstCComponent} from './cTheory/first-c/first-c.component';
+import{CompilationCComponent} from './cTheory/compilation-c/compilation-c.component';
+import{VariableCComponent} from './cTheory/variable-c/variable-c.component';
+import{KeywordCComponent} from './cTheory/keyword-c/keyword-c.component';
+import{ DatatypeCComponent} from './cTheory/datatype-c/datatype-c.component';
+import{IfelseCComponent} from './cTheory/ifelse-c/ifelse-c.component';
+import{SwitchCComponent} from './cTheory/switch-c/switch-c.component';
+import {WhileCComponent} from './cTheory/while-c/while-c.component';
+import{DowhileCComponent} from './cTheory/dowhile-c/dowhile-c.component';
+import{ForCComponent} from './cTheory/for-c/for-c.component';
+
+
+
+
+
+
 
 
 const routes: Routes = [
@@ -66,6 +86,20 @@ const routes: Routes = [
   { path:'relationalD',component:RelationalDComponent},
   { path:'schemaD',component:SchemaDComponent},
   { path:'indeD',component:IndeDComponent},
+  {path:'cHome',component:CHomeComponent},
+  {path:'whatC',component:WhatCComponent},
+  {path:'featuresC',component:FeaturesCComponent},
+  {path:'historyC',component:HistoryCComponent},
+  {path:'firstC',component:FirstCComponent},
+  {path:'compileC',component:CompilationCComponent},
+  {path:'variableC',component:VariableCComponent},
+  {path:'keywordC',component:KeywordCComponent},
+  {path:'datatypeC',component: DatatypeCComponent},
+  {path:'ifelseC',component: IfelseCComponent},
+  {path:'switchC',component:SwitchCComponent},
+  {path:'whileC',component:WhileCComponent},
+  {path:'dowhileC',component:DowhileCComponent},
+  {path:'forC',component:ForCComponent},
 
 ];
 
