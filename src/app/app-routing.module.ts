@@ -45,8 +45,10 @@ import{SwitchCComponent} from './cTheory/switch-c/switch-c.component';
 import {WhileCComponent} from './cTheory/while-c/while-c.component';
 import{DowhileCComponent} from './cTheory/dowhile-c/dowhile-c.component';
 import{ForCComponent} from './cTheory/for-c/for-c.component';
-
-
+import {SqlWelcomeComponent} from './forquiz/sql-welcome/sql-welcome.component';
+import{SqlQuestionComponent} from './forquiz/sql-question/sql-question.component';
+import {DataWelcomeComponent} from './forquiz/data-welcome/data-welcome.component';
+import {DataQuestionComponent} from './forquiz/data-question/data-question.component';
 
 
 
@@ -60,11 +62,15 @@ const routes: Routes = [
   { path: 'cssubjects', component: CssubjectsComponent },
   { path: 'ide', component: IdeComponent },
   { path: 'quiz', component: QuizComponent },
-  {path:'java-welcome', component:JavaWelcomeComponent},
+  {path:'java-welcome', component:JavaWelcomeComponent},                            //QUIZ
   { path:'java-question',component:JavaQuestionComponent},
   { path:'python-welcome',component:PythonWelcomeComponent},
   { path:'python-question',component:PythonQuestionComponent},
-  { path:'whatJ',component:WhatJComponent},
+  { path:'sql-welcome',component:SqlWelcomeComponent},
+  { path:'sql-question',component:SqlQuestionComponent},
+  { path:'data-welcome',component:DataWelcomeComponent},
+  { path:'data-question',component:DataQuestionComponent},
+  { path:'whatJ',component:WhatJComponent},                                         //Java 
   { path:'featuresJ',component:FeaturesJComponent},
   { path:'javaHome',component:JavaHomeComponent},
   { path:'helloJ',component:HelloJComponent},
@@ -76,7 +82,7 @@ const routes: Routes = [
   { path:'forJ',component:ForJComponent},
   { path:'breakJ',component:BreakJComponent},
   { path:'contiJ',component:ContiJComponent},
-  { path:'dbmsHome',component:DbmsHomeComponent},
+  { path:'dbmsHome',component:DbmsHomeComponent},                                     //DBMS
   { path:'whatD',component:WhatDComponent},
   { path:'charD',component:CharDComponent},
   { path:'appliD',component:AppliDComponent},
@@ -86,7 +92,7 @@ const routes: Routes = [
   { path:'relationalD',component:RelationalDComponent},
   { path:'schemaD',component:SchemaDComponent},
   { path:'indeD',component:IndeDComponent},
-  {path:'cHome',component:CHomeComponent},
+  {path:'cHome',component:CHomeComponent},                                            //C 
   {path:'whatC',component:WhatCComponent},
   {path:'featuresC',component:FeaturesCComponent},
   {path:'historyC',component:HistoryCComponent},

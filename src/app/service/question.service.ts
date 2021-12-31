@@ -14,4 +14,10 @@ export class QuestionService {
   getQuestionJsonP(){
     return this.http.get<any>("assets/pythonQuestion.json");
   }
+  getQuestionJsonS(){
+    return this.http.get<any>("assets/sqlQuestion.json");
+  }
+  getQuestionJsonD(){
+    return this.http.get<any>("assets/dataQuestion.json");
+  }
 }
