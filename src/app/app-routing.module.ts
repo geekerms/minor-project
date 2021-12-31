@@ -62,7 +62,7 @@ const routes: Routes = [
   { path: 'cssubjects', component: CssubjectsComponent },
   { path: 'ide', component: IdeComponent },
   { path: 'quiz', component: QuizComponent },
-  {path:'java-welcome', component:JavaWelcomeComponent},                            //QUIZ
+  {path:'java-welcome', component:JavaWelcomeComponent},
   { path:'java-question',component:JavaQuestionComponent},
   { path:'python-welcome',component:PythonWelcomeComponent},
   { path:'python-question',component:PythonQuestionComponent},
@@ -70,7 +70,7 @@ const routes: Routes = [
   { path:'sql-question',component:SqlQuestionComponent},
   { path:'data-welcome',component:DataWelcomeComponent},
   { path:'data-question',component:DataQuestionComponent},
-  { path:'whatJ',component:WhatJComponent},                                         //Java 
+  { path:'whatJ',component:WhatJComponent},
   { path:'featuresJ',component:FeaturesJComponent},
   { path:'javaHome',component:JavaHomeComponent},
   { path:'helloJ',component:HelloJComponent},
@@ -82,7 +82,7 @@ const routes: Routes = [
   { path:'forJ',component:ForJComponent},
   { path:'breakJ',component:BreakJComponent},
   { path:'contiJ',component:ContiJComponent},
-  { path:'dbmsHome',component:DbmsHomeComponent},                                     //DBMS
+  { path:'dbmsHome',component:DbmsHomeComponent},
   { path:'whatD',component:WhatDComponent},
   { path:'charD',component:CharDComponent},
   { path:'appliD',component:AppliDComponent},
@@ -92,7 +92,7 @@ const routes: Routes = [
   { path:'relationalD',component:RelationalDComponent},
   { path:'schemaD',component:SchemaDComponent},
   { path:'indeD',component:IndeDComponent},
-  {path:'cHome',component:CHomeComponent},                                            //C 
+  {path:'cHome',component:CHomeComponent},
   {path:'whatC',component:WhatCComponent},
   {path:'featuresC',component:FeaturesCComponent},
   {path:'historyC',component:HistoryCComponent},
