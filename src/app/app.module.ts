@@ -38,6 +38,7 @@ import { SchemaDComponent } from './dbmsTheory/schema-d/schema-d.component';
 import { IndeDComponent } from './dbmsTheory/inde-d/inde-d.component';
 import { PythonWelcomeComponent } from './forquiz/python-welcome/python-welcome.component';
 import { PythonQuestionComponent } from './forquiz/python-question/python-question.component';
+
 import { WhatOComponent } from './osTheory/what-o/what-o.component';
 import { OsHomeComponent } from './osTheory/os-home/os-home.component';
 import { FeaOComponent } from './osTheory/fea-o/fea-o.component';
@@ -72,6 +73,22 @@ import { WhileCppComponent } from './cppTheory/while-cpp/while-cpp.component';
 import { DowhileCppComponent } from './cppTheory/dowhile-cpp/dowhile-cpp.component';
 import { BreakCppComponent } from './cppTheory/break-cpp/break-cpp.component';
 import { ContiCppComponent } from './cppTheory/conti-cpp/conti-cpp.component';
+
+import { CHomeComponent } from './cTheory/c-home/c-home.component';
+import { WhatCComponent } from './cTheory/what-c/what-c.component';
+import { FeaturesCComponent } from './cTheory/features-c/features-c.component';
+import { HistoryCComponent } from './cTheory/history-c/history-c.component';
+import { FirstCComponent } from './cTheory/first-c/first-c.component';
+import { CompilationCComponent } from './cTheory/compilation-c/compilation-c.component';
+import { VariableCComponent } from './cTheory/variable-c/variable-c.component';
+import { KeywordCComponent } from './cTheory/keyword-c/keyword-c.component';
+import { DatatypeCComponent } from './cTheory/datatype-c/datatype-c.component';
+import { IfelseCComponent } from './cTheory/ifelse-c/ifelse-c.component';
+import { SwitchCComponent } from './cTheory/switch-c/switch-c.component';
+import { WhileCComponent } from './cTheory/while-c/while-c.component';
+import { DowhileCComponent } from './cTheory/dowhile-c/dowhile-c.component';
+import { ForCComponent } from './cTheory/for-c/for-c.component';
+
 
 @NgModule({
   declarations: [
@@ -110,6 +127,7 @@ import { ContiCppComponent } from './cppTheory/conti-cpp/conti-cpp.component';
     IndeDComponent,
     PythonWelcomeComponent,
     PythonQuestionComponent,
+
     WhatOComponent,
     OsHomeComponent,
     FeaOComponent,
@@ -144,6 +162,22 @@ import { ContiCppComponent } from './cppTheory/conti-cpp/conti-cpp.component';
     DowhileCppComponent,
     BreakCppComponent,
     ContiCppComponent
+
+    CHomeComponent,
+    WhatCComponent,
+    FeaturesCComponent,
+    HistoryCComponent,
+    FirstCComponent,
+    CompilationCComponent,
+    VariableCComponent,
+    KeywordCComponent,
+    DatatypeCComponent,
+    IfelseCComponent,
+    SwitchCComponent,
+    WhileCComponent,
+    DowhileCComponent,
+    ForCComponent
+
   ],
   imports: [
     BrowserModule,
