@@ -1,0 +1,184 @@
+{
+    "questions": [{
+            "questionText": " Which one of the following is used to define the structure of the relation, deleting relations and relating schemas?",
+            "options": [{
+                    "text": "DML(Data Manipulation Langauge)"
+                },
+                {
+                    "text": " DDL(Data Definition Langauge)",
+                    "correct": true
+                },
+                {
+                    "text": "Query"
+                },
+                {
+                    "text": "Relational Schema"
+                }
+            ],
+            "explanation": " Data Definition language is the language which performs all the operation in defining structure of relation."
+        },
+        {
+            "questionText": " Which one of the following provides the ability to query information from the database and to insert tuples into, delete tuples from, and modify tuples in the database?",
+            "options": [{
+                    "text": "DML(Data Manipulation Langauge)",
+                    "correct": true
+                },
+                {
+                    "text": " DDL(Data Definition Langauge)"
+                },
+                {
+                    "text": "Query"
+                },
+                {
+                    "text": "Relational Schema"
+                    
+                }
+            ],
+            "explanation": "DML performs the change in the values of the relation."
+        },
+        {
+            "questionText": "CREATE TABLE employee (name VARCHAR, id INTEGER);  What type of statement is this?",
+            "options": [{
+                    "text": "DML"
+                },
+                {
+                    "text": " DDL",
+                    "correct": true
+                },
+                {
+                    "text": "View"
+                },
+                {
+                    "text": "Integrity constraint"
+                }
+            ],
+            "explanation": " Data Definition language is the language which performs all the operation in defining structure of relation."
+        },
+        {
+            "questionText": "SELECT * FROM employee;  What type of statement is this? ",
+            "options": [{
+                    "text": " DML",
+                    "correct": true
+                },
+                {
+                    "text": "DDL"
+                },
+                {
+                    "text": "View"
+                },
+                {
+                    "text": "Integrity constraint"
+                }
+            ],
+            "explanation": "Select operation just shows the required fields of the relation. So it forms a DML."
+        },
+        {
+            "questionText": "The basic data type char(n) is a _____ length character string and varchar(n) is _____ length character.",
+            "options": [{
+                    "text": "Fixed, equal"
+                },
+                {
+                    "text": " Equal, variable"
+                },
+                {
+                    "text": " Fixed, variable",
+                    "correct": true
+                },
+                {
+                    "text": "  Variable, equal"
+                }
+            ],
+            "explanation": "Varchar changes its length accordingly whereas char has a specific length which has to be filled by either letters or spaces."
+        },
+        {
+            "questionText": "An attribute A of datatype varchar(20) has the value “Avi”. The attribute B of datatype char(20) has value ”Reed”. Here attribute A has ____ spaces and attribute B has ____ spaces.",
+            "options": [{
+                    "text": "3, 20",
+                    "correct": true
+                },
+                {
+                    "text": "20, 4"
+                },
+                {
+                    "text": " 20, 20"
+                },
+                {
+                    "text": " 3, 4"
+                }
+            ],
+            "explanation": "Varchar changes its length accordingly whereas char has a specific length which has to be filled by either letters or spaces."
+        },
+        {
+            "questionText": "INSERT INTO instructor VALUES (10211, ’Smith’, ’Biology’, 66000);                                                                          What type of statement is this?",
+            "options": [{
+                    "text": "Query"
+                },
+                {
+                    "text": "DML",
+                    "correct": true
+                },
+                {
+                    "text": "Relational"
+                },
+                {
+                    "text": "DDL"
+                }
+            ],
+            "explanation": "The values are manipulated. So it is a DML."
+        },
+        {
+            "questionText": "To remove a relation from an SQL database, we use the ______ command.",
+            "options": [{
+                    "text": " Delete"
+                },
+                {
+                    "text": "Purge"
+                },
+                {
+                    "text": "Remove"
+                },
+                {
+                    "text": "Drop table",
+                    "correct": true
+                }
+            ],
+            "explanation": "Drop table deletes the whole structure of the relation .purge removes the table which cannot be obtained again."
+        },
+        {
+            "questionText": "DELETE FROM r;   (r - relation)        This command performs which of the following action?",
+            "options": [{
+                    "text": "Remove relation"
+                },
+                {
+                    "text": "Clear relation entries",
+                    "correct": true
+                },
+                {
+                    "text": "Delete fields"
+                },
+                {
+                    "text": "Delete rows"
+                }
+            ],
+            "explanation": "Delete command removes the entries in the table."
+        },
+        {
+            "questionText": " Updates that violate __________ are disallowed.",
+            "options": [{
+                    "text": "Integrity constraints",
+                    "correct": true
+                },
+                {
+                    "text": "Transaction control"
+                },
+                {
+                    "text": "Authorization"
+                },
+                {
+                    "text": "DDL constraints"
+                }
+            ],
+            "explanation": "Integrity constraint has to be maintained in the entries of the relation."
+        }
+    ]
+}

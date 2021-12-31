@@ -88,6 +88,10 @@ import { SwitchCComponent } from './cTheory/switch-c/switch-c.component';
 import { WhileCComponent } from './cTheory/while-c/while-c.component';
 import { DowhileCComponent } from './cTheory/dowhile-c/dowhile-c.component';
 import { ForCComponent } from './cTheory/for-c/for-c.component';
+import { SqlWelcomeComponent } from './forquiz/sql-welcome/sql-welcome.component';
+import { SqlQuestionComponent } from './forquiz/sql-question/sql-question.component';
+import { DataWelcomeComponent } from './forquiz/data-welcome/data-welcome.component';
+import { DataQuestionComponent } from './forquiz/data-question/data-question.component';
 
 
 @NgModule({
@@ -176,7 +180,14 @@ import { ForCComponent } from './cTheory/for-c/for-c.component';
     SwitchCComponent,
     WhileCComponent,
     DowhileCComponent,
-    ForCComponent
+
+    ForCComponent,
+    SqlWelcomeComponent,
+    SqlQuestionComponent,
+    DataWelcomeComponent,
+    DataQuestionComponent
+
+
 
   ],
   imports: [

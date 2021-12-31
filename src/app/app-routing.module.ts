@@ -81,8 +81,10 @@ import{SwitchCComponent} from './cTheory/switch-c/switch-c.component';
 import {WhileCComponent} from './cTheory/while-c/while-c.component';
 import{DowhileCComponent} from './cTheory/dowhile-c/dowhile-c.component';
 import{ForCComponent} from './cTheory/for-c/for-c.component';
-
-
+import {SqlWelcomeComponent} from './forquiz/sql-welcome/sql-welcome.component';
+import{SqlQuestionComponent} from './forquiz/sql-question/sql-question.component';
+import {DataWelcomeComponent} from './forquiz/data-welcome/data-welcome.component';
+import {DataQuestionComponent} from './forquiz/data-question/data-question.component';
 
 
 
@@ -101,6 +103,10 @@ const routes: Routes = [
   { path:'java-question',component:JavaQuestionComponent},
   { path:'python-welcome',component:PythonWelcomeComponent},
   { path:'python-question',component:PythonQuestionComponent},
+  { path:'sql-welcome',component:SqlWelcomeComponent},
+  { path:'sql-question',component:SqlQuestionComponent},
+  { path:'data-welcome',component:DataWelcomeComponent},
+  { path:'data-question',component:DataQuestionComponent},
   { path:'whatJ',component:WhatJComponent},
   { path:'featuresJ',component:FeaturesJComponent},
   { path:'javaHome',component:JavaHomeComponent},
