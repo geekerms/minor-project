@@ -31,6 +31,7 @@ import{SchemaDComponent} from './dbmsTheory/schema-d/schema-d.component';
 import{IndeDComponent} from './dbmsTheory/inde-d/inde-d.component';
 import{PythonWelcomeComponent} from './forquiz/python-welcome/python-welcome.component';
 import{PythonQuestionComponent} from './forquiz/python-question/python-question.component';
+
 import{OsHomeComponent} from './osTheory/os-home/os-home.component';
 import{WhatOComponent} from './osTheory/what-o/what-o.component';
 import{FeaOComponent} from './osTheory/fea-o/fea-o.component';
@@ -66,6 +67,7 @@ import{DowhileCppComponent} from './cppTheory/dowhile-cpp/dowhile-cpp.component'
 import{BreakCppComponent} from './cppTheory/break-cpp/break-cpp.component';
 import{ContiCppComponent} from './cppTheory/conti-cpp/conti-cpp.component';
 
+<<<<<<< HEAD
               // Data structure theory
 import{DscHomeComponent} from './dscTheory/dsc-home/dsc-home.component';
 import{WhatDscComponent} from './dscTheory/what-dsc/what-dsc.component';
@@ -97,6 +99,30 @@ import{LgCoaComponent} from './coaTheory/lg-coa/lg-coa.component';
 import{CcCoaComponent} from './coaTheory/cc-coa/cc-coa.component';
 import{HaCoaComponent} from './coaTheory/ha-coa/ha-coa.component';
 import{FaCoaComponent} from './coaTheory/fa-coa/fa-coa.component';
+=======
+import{CHomeComponent} from './cTheory/c-home/c-home.component';
+import{WhatCComponent} from './cTheory/what-c/what-c.component';
+import{FeaturesCComponent}from './cTheory/features-c/features-c.component';
+import{HistoryCComponent} from './cTheory/history-c/history-c.component';
+import{FirstCComponent} from './cTheory/first-c/first-c.component';
+import{CompilationCComponent} from './cTheory/compilation-c/compilation-c.component';
+import{VariableCComponent} from './cTheory/variable-c/variable-c.component';
+import{KeywordCComponent} from './cTheory/keyword-c/keyword-c.component';
+import{ DatatypeCComponent} from './cTheory/datatype-c/datatype-c.component';
+import{IfelseCComponent} from './cTheory/ifelse-c/ifelse-c.component';
+import{SwitchCComponent} from './cTheory/switch-c/switch-c.component';
+import {WhileCComponent} from './cTheory/while-c/while-c.component';
+import{DowhileCComponent} from './cTheory/dowhile-c/dowhile-c.component';
+import{ForCComponent} from './cTheory/for-c/for-c.component';
+
+
+
+
+
+
+
+
+>>>>>>> 1a3da8339b9ca521dde19e1d70d28b564a8904ed
 
 const routes: Routes = [
   { path: '', component: HomeComponent},
@@ -131,6 +157,7 @@ const routes: Routes = [
   { path:'relationalD',component:RelationalDComponent},
   { path:'schemaD',component:SchemaDComponent},
   { path:'indeD',component:IndeDComponent},
+
   { path:'osHome',component:OsHomeComponent},
   { path:'whatO',component:WhatOComponent},
   { path:'feaO',component:FeaOComponent},
@@ -199,6 +226,22 @@ const routes: Routes = [
   { path:'haCoa',component:HaCoaComponent},
   { path:'faCoa',component:FaCoaComponent},
 
+
+
+  {path:'cHome',component:CHomeComponent},
+  {path:'whatC',component:WhatCComponent},
+  {path:'featuresC',component:FeaturesCComponent},
+  {path:'historyC',component:HistoryCComponent},
+  {path:'firstC',component:FirstCComponent},
+  {path:'compileC',component:CompilationCComponent},
+  {path:'variableC',component:VariableCComponent},
+  {path:'keywordC',component:KeywordCComponent},
+  {path:'datatypeC',component: DatatypeCComponent},
+  {path:'ifelseC',component: IfelseCComponent},
+  {path:'switchC',component:SwitchCComponent},
+  {path:'whileC',component:WhileCComponent},
+  {path:'dowhileC',component:DowhileCComponent},
+  {path:'forC',component:ForCComponent},
 
 
 ];

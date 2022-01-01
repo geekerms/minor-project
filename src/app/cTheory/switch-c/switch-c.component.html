@@ -1,0 +1,53 @@
+<div id="top">
+    <h2>C Tutorial</h2>
+</div>
+<div class="contain" style="display: flex;">
+    <app-c-home></app-c-home>
+
+    <div class="parent">
+        <div class="right">
+            <h1><b>C Switch Statement</b></h1>
+            <br>
+
+            <h5 style="text-align: justify;">
+                The switch statement in C is an alternate to if-else-if ladder statement which allows us to execute
+                multiple operations for the different possibles values of a single variable called switch variable.
+                Here, We can define various statements in the multiple cases for the different values of a single
+                variable.
+                <br><br>
+                The syntax of switch statement in c language is given below: <br><br>
+                <div style="background-color: antiquewhite;">
+                    <b style="color: blue;">switch</b>(expression)&#123; <br>   
+                        case value1:   <br> 
+                         <i style="color: green;">//code to be executed;</i>   <br> 
+                         break;  <i style="color: green;">//optional</i>  <br>
+                        case value2:    <br>
+                        <i style="color: green;">//code to be executed;</i>    <br>
+                         break;  <i style="color: green;">//optional</i>  <br>
+                        ......   <br> 
+                            
+                        <b style="color: blue;">default</b>: <br>
+                         code to be executed if all cases are not matched; <br>
+                        &#125;   
+                </div><br>
+                <h4>Rules for switch statement in C language</h4><br>
+                <ol>
+                    <li>The switch expression must be of an integer or character type.</li>
+                    <li>The case value must be an integer or character constant.</li>
+                    <li>The case value can be used only inside the switch statement.</li>
+                    <li>The break statement in switch case is not must. It is optional. If there is no break statement found in the case, all the cases will be executed present after the matched case. It is known as fall through the state of C switch statement.</li>
+                </ol>
+                <h4>Flowchart of switch statement in C</h4><br>
+                <img src="../assets/images/cswitch.png" >
+
+            </h5>
+
+        </div>
+    </div>
+</div>
+<div>
+    <button type="button" class="btn btn-primary pull-left" style="margin-left: 510px;margin-top: 10px;"
+        routerLink="/ifelseC">Previous</button>
+    <button type="button" class="btn btn-primary pull-right" style="margin-right: 310px;margin-top: 10px;"
+        routerLink="/whileC">Next</button>
+</div>
