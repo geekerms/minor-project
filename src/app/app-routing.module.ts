@@ -66,6 +66,38 @@ import{DowhileCppComponent} from './cppTheory/dowhile-cpp/dowhile-cpp.component'
 import{BreakCppComponent} from './cppTheory/break-cpp/break-cpp.component';
 import{ContiCppComponent} from './cppTheory/conti-cpp/conti-cpp.component';
 
+              // Data structure theory
+import{DscHomeComponent} from './dscTheory/dsc-home/dsc-home.component';
+import{WhatDscComponent} from './dscTheory/what-dsc/what-dsc.component';
+import{TypeDscComponent} from './dscTheory/type-dsc/type-dsc.component';
+import{OpDscComponent} from './dscTheory/op-dsc/op-dsc.component';
+import{ArrDscComponent} from './dscTheory/arr-dsc/arr-dsc.component';
+import{TypearrDscComponent} from './dscTheory/typearr-dsc/typearr-dsc.component';
+import{TdarrDscComponent} from './dscTheory/tdarr-dsc/tdarr-dsc.component';
+import{LlDscComponent} from './dscTheory/ll-dsc/ll-dsc.component';
+import{TypellDscComponent} from './dscTheory/typell-dsc/typell-dsc.component';
+import{SlDscComponent} from './dscTheory/sl-dsc/sl-dsc.component';
+import{DlDscComponent} from './dscTheory/dl-dsc/dl-dsc.component';
+import{CslDscComponent} from './dscTheory/csl-dsc/csl-dsc.component';
+import{CdlDscComponent} from './dscTheory/cdl-dsc/cdl-dsc.component';
+
+              //Computer Architecture
+
+import{CoaHomeComponent} from './coaTheory/coa-home/coa-home.component';
+import{WhatCoaComponent} from './coaTheory/what-coa/what-coa.component';
+import{FuCoaComponent} from './coaTheory/fu-coa/fu-coa.component';
+import{GsCoaComponent} from './coaTheory/gs-coa/gs-coa.component';
+import{SpCoaComponent} from './coaTheory/sp-coa/sp-coa.component';
+import{FlynnCoaComponent} from './coaTheory/flynn-coa/flynn-coa.component';
+import{RegCoaComponent} from './coaTheory/reg-coa/reg-coa.component';
+import{RegcCoaComponent} from './coaTheory/regc-coa/regc-coa.component';
+import{InsCoaComponent} from './coaTheory/ins-coa/ins-coa.component';
+import{DcCoaComponent} from './coaTheory/dc-coa/dc-coa.component';
+import{LgCoaComponent} from './coaTheory/lg-coa/lg-coa.component';
+import{CcCoaComponent} from './coaTheory/cc-coa/cc-coa.component';
+import{HaCoaComponent} from './coaTheory/ha-coa/ha-coa.component';
+import{FaCoaComponent} from './coaTheory/fa-coa/fa-coa.component';
+
 const routes: Routes = [
   { path: '', component: HomeComponent},
   {path: 'home', component:HomeComponent },
@@ -133,6 +165,39 @@ const routes: Routes = [
   { path:'dowhileCpp',component:DowhileCppComponent},
   { path:'breakCpp',component:BreakCppComponent},
   { path:'contiCpp',component:ContiCppComponent},
+
+          // Data structure theory
+
+  { path:'dscHome',component:DscHomeComponent},
+  { path:'WhatDsc',component:WhatDscComponent},
+  { path:'typeDsc',component:TypeDscComponent},
+  { path:'opDsc',component:OpDscComponent},
+  { path:'arrDsc',component:ArrDscComponent},
+  { path:'typearrDsc',component:TypearrDscComponent},
+  { path:'TdarrDsc',component:TdarrDscComponent},
+  { path:'llDsc',component:LlDscComponent},
+  { path:'typellDsc',component:TypellDscComponent},
+  { path:'slDsc',component:SlDscComponent},
+  { path:'dlDsc',component:DlDscComponent},
+  { path:'cslDsc',component:CslDscComponent},
+  { path:'cdlDsc',component:CdlDscComponent},
+
+              //Computer Architecture
+
+  { path:'coaHome',component:CoaHomeComponent},            
+  { path:'whatCoa',component:WhatCoaComponent},            
+  { path:'fuCoa',component:FuCoaComponent},
+  { path:'gsCoa',component:GsCoaComponent},
+  { path:'spCoa',component:SpCoaComponent},
+  { path:'flynnCoa',component:FlynnCoaComponent},
+  { path:'regCoa',component:RegCoaComponent},
+  { path:'regcCoa',component:RegcCoaComponent},
+  { path:'insCoa',component:InsCoaComponent},
+  { path:'dcCoa',component:DcCoaComponent},
+  { path:'lgCoa',component:LgCoaComponent},
+  { path:'ccCoa',component:CcCoaComponent},
+  { path:'haCoa',component:HaCoaComponent},
+  { path:'faCoa',component:FaCoaComponent},
 
 
 
