@@ -73,6 +73,33 @@ import { WhileCppComponent } from './cppTheory/while-cpp/while-cpp.component';
 import { DowhileCppComponent } from './cppTheory/dowhile-cpp/dowhile-cpp.component';
 import { BreakCppComponent } from './cppTheory/break-cpp/break-cpp.component';
 import { ContiCppComponent } from './cppTheory/conti-cpp/conti-cpp.component';
+import { DscHomeComponent } from './dscTheory/dsc-home/dsc-home.component';
+import { WhatDscComponent } from './dscTheory/what-dsc/what-dsc.component';
+import { TypeDscComponent } from './dscTheory/type-dsc/type-dsc.component';
+import { OpDscComponent } from './dscTheory/op-dsc/op-dsc.component';
+import { ArrDscComponent } from './dscTheory/arr-dsc/arr-dsc.component';
+import { TypearrDscComponent } from './dscTheory/typearr-dsc/typearr-dsc.component';
+import { TdarrDscComponent } from './dscTheory/tdarr-dsc/tdarr-dsc.component';
+import { LlDscComponent } from './dscTheory/ll-dsc/ll-dsc.component';
+import { TypellDscComponent } from './dscTheory/typell-dsc/typell-dsc.component';
+import { SlDscComponent } from './dscTheory/sl-dsc/sl-dsc.component';
+import { DlDscComponent } from './dscTheory/dl-dsc/dl-dsc.component';
+import { CslDscComponent } from './dscTheory/csl-dsc/csl-dsc.component';
+import { CdlDscComponent } from './dscTheory/cdl-dsc/cdl-dsc.component';
+import { CoaHomeComponent } from './coaTheory/coa-home/coa-home.component';
+import { WhatCoaComponent } from './coaTheory/what-coa/what-coa.component';
+import { FuCoaComponent } from './coaTheory/fu-coa/fu-coa.component';
+import { GsCoaComponent } from './coaTheory/gs-coa/gs-coa.component';
+import { SpCoaComponent } from './coaTheory/sp-coa/sp-coa.component';
+import { FlynnCoaComponent } from './coaTheory/flynn-coa/flynn-coa.component';
+import { RegCoaComponent } from './coaTheory/reg-coa/reg-coa.component';
+import { RegcCoaComponent } from './coaTheory/regc-coa/regc-coa.component';
+import { InsCoaComponent } from './coaTheory/ins-coa/ins-coa.component';
+import { DcCoaComponent } from './coaTheory/dc-coa/dc-coa.component';
+import { LgCoaComponent } from './coaTheory/lg-coa/lg-coa.component';
+import { CcCoaComponent } from './coaTheory/cc-coa/cc-coa.component';
+import { HaCoaComponent } from './coaTheory/ha-coa/ha-coa.component';
+import { FaCoaComponent } from './coaTheory/fa-coa/fa-coa.component';
 
 import { CHomeComponent } from './cTheory/c-home/c-home.component';
 import { WhatCComponent } from './cTheory/what-c/what-c.component';
@@ -165,6 +192,36 @@ import { DataQuestionComponent } from './forquiz/data-question/data-question.com
     WhileCppComponent,
     DowhileCppComponent,
     BreakCppComponent,
+<<<<<<< HEAD
+    ContiCppComponent,
+    DscHomeComponent,
+    WhatDscComponent,
+    TypeDscComponent,
+    OpDscComponent,
+    ArrDscComponent,
+    TypearrDscComponent,
+    TdarrDscComponent,
+    LlDscComponent,
+    TypellDscComponent,
+    SlDscComponent,
+    DlDscComponent,
+    CslDscComponent,
+    CdlDscComponent,
+    CoaHomeComponent,
+    WhatCoaComponent,
+    FuCoaComponent,
+    GsCoaComponent,
+    SpCoaComponent,
+    FlynnCoaComponent,
+    RegCoaComponent,
+    RegcCoaComponent,
+    InsCoaComponent,
+    DcCoaComponent,
+    LgCoaComponent,
+    CcCoaComponent,
+    HaCoaComponent,
+    FaCoaComponent
+=======
     ContiCppComponent
 
     CHomeComponent,
@@ -189,6 +246,7 @@ import { DataQuestionComponent } from './forquiz/data-question/data-question.com
 
 
 
+>>>>>>> 1a3da8339b9ca521dde19e1d70d28b564a8904ed
   ],
   imports: [
     BrowserModule,
