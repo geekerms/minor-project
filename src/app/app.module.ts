@@ -12,7 +12,7 @@ import { QuizComponent } from './pages/quiz/quiz.component';
 import { HomeComponent } from './pages/home/home.component';
 import { JavaWelcomeComponent } from './forquiz/java-welcome/java-welcome.component';
 import { JavaQuestionComponent } from './forquiz/java-question/java-question.component';
-import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { HttpClientModule } from '@angular/common/http';
 import { ChangeBgDirective } from './quiz-derective/change-bg.directive';
 import { WhatJComponent } from './javaTheory/what-j/what-j.component';
 import { FeaturesJComponent } from './javaTheory/features-j/features-j.component';
@@ -165,7 +165,7 @@ import { DataQuestionComponent } from './forquiz/data-question/data-question.com
     WhileCppComponent,
     DowhileCppComponent,
     BreakCppComponent,
-    ContiCppComponent
+    ContiCppComponent,
 
     CHomeComponent,
     WhatCComponent,
@@ -185,7 +185,7 @@ import { DataQuestionComponent } from './forquiz/data-question/data-question.com
     SqlWelcomeComponent,
     SqlQuestionComponent,
     DataWelcomeComponent,
-    DataQuestionComponent
+    DataQuestionComponent,
 
 
 
